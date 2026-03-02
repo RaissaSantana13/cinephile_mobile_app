@@ -22,6 +22,7 @@ export const fetchMovies = async ({
     });
 
     if (!response.ok) {
+        console.log("Status do erro:", response.status);
         throw new Error(`Failed to fetch movies: ${response.statusText}`);
     }
 
