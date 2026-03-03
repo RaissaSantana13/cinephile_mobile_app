@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba6c63eb-6d7b-4c35-a90d-ebd17964b4cf" name="Changes" comment="add_search">
-      <change afterPath="$PROJECT_DIR$/components/TrendingCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/appwrite.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="ba6c63eb-6d7b-4c35-a90d-ebd17964b4cf" name="Changes" comment="add_trendingmovies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/saved.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/saved.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movies/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/movies/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TrendingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TrendingCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <workItem from="1772153209778" duration="1380000" />
       <workItem from="1772155742899" duration="1180000" />
       <workItem from="1772371945665" duration="20665000" />
-      <workItem from="1772562208575" duration="7036000" />
+      <workItem from="1772562208575" duration="8009000" />
     </task>
     <task id="LOCAL-00001" summary=" CONFIG">
       <option name="closed" value="true" />
@@ -133,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772392661635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add_trendingmovies">
+      <option name="closed" value="true" />
+      <created>1772570182764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772570182764</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" CONFIG" />
     <MESSAGE value=" searchbar_navigationbar" />
-    <option name="LAST_COMMIT_MESSAGE" value=" searchbar_navigationbar" />
+    <MESSAGE value="add_trendingmovies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_trendingmovies" />
   </component>
 </project>
