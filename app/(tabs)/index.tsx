@@ -7,9 +7,17 @@ import {useRouter} from "expo-router";
 import useFetch from "@/services/useFetch";
 import {fetchMovies} from "@/services/api";
 import MovieCard from "@/components/MovieCard";
+import {getTrendingMovies} from "@/services/appwrite";
+import TrendingCard from "@/components/TrendingCard";
 
 export default function Index() {
     const router = useRouter();
+    const {
+        data: trendingMovies,
+        loading: trendingLoading,
+        error: trendingError,
+    } = useFetch(getTrendingMovies);
+
     const { data: movies, loading: moviesLoading, error: moviesError } = useFetch(() =>
         fetchMovies({ query: '' })
     );
@@ -25,12 +33,35 @@ export default function Index() {
                         onPress={() => router.push("/search")}
                         placeholder="Search for a movie"
                     />
+
+                    {trendingMovies && (
+                        <View className="mt-10">
+                            <Text className="text-lg text-white font-bold mb-3">
+                                Trending Movies
+                            </Text>
+                            <FlatList
+                                horizontal
+                                showsHorizontalScrollIndicator={false}
+                                className="mb-4 mt-3"
+                                data={trendingMovies}
+                                contentContainerStyle={{
+                                    gap: 26,
+                                }}
+                                renderItem={({ item, index }) => (
+                                    <TrendingCard movie={item} index={index} />
+                                )}
+                                keyExtractor={(item) => item.movie_id.toString()}
+
+                            />
+                        </View>
+                    )}
+
                     <Text className="text-lg text-white font-bold mt-5 mb-3">Latest Movies</Text>
                 </View>
-                {moviesLoading ? (
+                {moviesLoading || trendingLoading ? (
                     <ActivityIndicator size="large" color="#AB8BFF" className="mt-10" />
-                ) : moviesError ? (
-                    <Text className="text-red-500 text-center">Erro: {moviesError.message}</Text>
+                ) : moviesError || trendingError? (
+                    <Text className="text-red-500 text-center">Erro: {moviesError?.message || trendingError?.message}</Text>
                 ) : (
                     <FlatList
                         data={movies}
