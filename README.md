@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
+# Cinephile Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)
+![NativeWind](https://img.shields.io/badge/NativeWind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-## Get started
+**Cinephile** é uma aplicação móvel moderna desenvolvida para entusiastas do cinema. O app permite explorar filmes em tendência, pesquisar títulos específicos e gerir uma lista personalizada de favoritos, oferecendo uma experiência fluida e visualmente atraente.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Funcionalidades Principais
 
-2. Start the app
+* **Exploração de Tendências:** Visualize os filmes mais populares do momento em um carrossel interativo.
+* **Pesquisa Inteligente:** Encontre filmes rapidamente através de uma barra de busca dinâmica.
+* **Detalhes do Filme:** Informações completas sobre cada obra, incluindo sinopse, avaliação e data de lançamento.
+* **Favoritos (Lista de Desejos):** Salve filmes para assistir mais tarde utilizando a integração com o Appwrite.
+* **Interface Premium:** Design elegante com suporte a temas escuros, ícones personalizados e tipografia refinada.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tecnologias Utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **Framework:** [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/).
+* **Estilização:** [NativeWind](https://www.nativewind.dev/) (Tailwind CSS para React Native).
+* **Backend as a Service (BaaS):** [Appwrite](https://appwrite.io/) para autenticação e banco de dados de favoritos.
+* **Consumo de API:** [TMDB API](https://www.themoviedb.org/documentation/api) para dados de filmes em tempo real.
+* **Navegação:** Expo Router (File-based routing).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📂 Estrutura do Projeto
 
-When you're ready, run:
+* **`app/`**: Contém as rotas e telas principais (Tabs de Home, Search, Saved e Profile).
+* **`components/`**: Componentes reutilizáveis como `MovieCard`, `TrendingCard` e `SearchBar`.
+* **`services/`**: Configurações de API (`api.ts`) e integração com o Appwrite.
+* **`constants/`**: Gerenciamento de assets (ícones e imagens) e temas.
+* **`interfaces/`**: Definições de tipos TypeScript para garantir segurança no código.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## ⚙️ Configuração Local
 
-## Learn more
+1.  Clone o repositório.
+2.  Instale as dependências: `npm install`.
+3.  Crie um arquivo `.env` baseado nas chaves necessárias para a **TMDB API** e **Appwrite**.
+4.  Inicie o projeto: `npx expo start`.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 👨‍💻 Autor
 
-## Join the community
+Projeto desenvolvido com foco em performance mobile e experiência do usuário (UX), explorando o ecossistema moderno do React Native.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Cinephile Mobile App
+
+**Cinephile** is a modern mobile application built for cinema enthusiasts. The app allows users to explore trending movies, search for specific titles, and manage a personalized watchlist, providing a fluid and visually compelling experience.
+
+---
+
+## 🚀 Key Features
+
+* **Trending Exploration:** View current popular movies through an interactive trending carousel.
+* **Smart Search:** Quickly find movies using a dynamic search bar.
+* **Movie Details:** In-depth information about each film, including synopsis, ratings, and release dates.
+* **Watchlist (Saved):** Save movies to watch later using Appwrite integration.
+* **Premium UI:** Elegant design featuring dark theme support, custom icons, and refined typography.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/).
+* **Styling:** [NativeWind](https://www.nativewind.dev/) (Tailwind CSS for React Native).
+* **Backend as a Service (BaaS):** [Appwrite](https://appwrite.io/) for authentication and the saved movies database.
+* **API Consumption:** [TMDB API](https://www.themoviedb.org/documentation/api) for real-time movie data.
+* **Navigation:** Expo Router (File-based routing).
+
+---
+
+## 📂 Project Structure
+
+* **`app/`**: Contains main routes and screens (Home, Search, Saved, and Profile tabs).
+* **`components/`**: Reusable components such as `MovieCard`, `TrendingCard`, and `SearchBar`.
+* **`services/`**: API configurations (`api.ts`) and Appwrite integration.
+* **`constants/`**: Asset management (icons and images) and themes.
+* **`interfaces/`**: TypeScript type definitions to ensure code safety.
+
+---
+
+## ⚙️ Local Setup
+
+1.  Clone the repository.
+2.  Install dependencies: `npm install`.
+3.  Create a `.env` file based on the required keys for **TMDB API** and **Appwrite**.
+4.  Start the project: `npx expo start`.
+
+---
+
+## 👨‍💻 Author
+
+Project developed with a focus on mobile performance and user experience (UX), exploring the modern React Native ecosystem.
