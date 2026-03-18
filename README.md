@@ -8,6 +8,16 @@
 **Cinephile** é uma aplicação móvel moderna desenvolvida para entusiastas do cinema. O app permite explorar filmes em tendência, pesquisar títulos específicos e gerir uma lista personalizada de favoritos, oferecendo uma experiência fluida e visualmente atraente.
 
 ---
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fa14c0a2-56cc-492a-962b-025e461a8321" alt="Cinephile Interface" width="80%">
+
+  <br><br>
+
+  <a href="https://player.cloudinary.com/embed/?cloud_name=dzkjdll3l&public_id=Cinephile" target="_blank">
+    <img src="https://img.shields.io/badge/ASSISTIR-DEMO%20VÍDEO-red?style=for-the-badge&logo=youtube" alt="Assistir Demonstração do Cinephile">
+  </a>
+</div>
+---
 
 ## 🚀 Funcionalidades Principais
 
