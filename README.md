@@ -17,7 +17,6 @@
     <img src="https://img.shields.io/badge/ASSISTIR-DEMO%20VÍDEO-red?style=for-the-badge&logo=youtube" alt="Assistir Demonstração do Cinephile">
   </a>
 </div>
----
 
 
 ## 🚀 Funcionalidades Principais
