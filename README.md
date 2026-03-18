@@ -9,21 +9,16 @@
 
 ---
 <div align="center">
-  <hr>
-  
-  <h3>🎬 Demonstração do Cinephile</h3>
+  <img src="https://github.com/user-attachments/assets/fa14c0a2-56cc-492a-962b-025e461a8321" alt="Cinephile Interface" width="80%">
 
-  <video src="https://res.cloudinary.com/dzkjdll3l/video/upload/Cinephile.mp4" width="85%" controls>
-    Seu navegador não suporta a reprodução de vídeos. 
-    <a href="https://player.cloudinary.com/embed/?cloud_name=dzkjdll3l&public_id=Cinephile">Clique aqui para assistir.</a>
-  </video>
+  <br><br>
 
-  <p><i>Clique no play para assistir à demonstração das funcionalidades.</i></p>
-
-  <hr>
+  <a href="https://player.cloudinary.com/embed/?cloud_name=dzkjdll3l&public_id=Cinephile" target="_blank">
+    <img src="https://img.shields.io/badge/ASSISTIR-DEMO%20VÍDEO-red?style=for-the-badge&logo=youtube" alt="Assistir Demonstração do Cinephile">
+  </a>
 </div>
-
 ---
+
 
 ## 🚀 Funcionalidades Principais
 
