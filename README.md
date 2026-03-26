@@ -2,6 +2,8 @@
 
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+
+
 ![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)
 ![NativeWind](https://img.shields.io/badge/NativeWind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
@@ -9,7 +11,7 @@
 
 ---
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fa14c0a2-56cc-492a-962b-025e461a8321" alt="Cinephile Interface" width="80%">
+  <img src="https://github.com/user-attachments/assets/eaf837f0-bd81-4f47-9f8e-d48e978b9807" alt="Cinephile Interface" width="40%">
 
   <br><br>
 
